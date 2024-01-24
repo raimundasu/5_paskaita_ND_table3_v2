@@ -1,0 +1,39 @@
+table {
+  margin: 1rem;
+  border: 5px solid black;
+  border-collapse: collapse;
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  background: white;
+  text-align: left;
+}
+
+.one {
+  font-weight: 800;
+  padding: 1rem 15rem 1rem 2rem;
+}
+th,
+td {
+  border: 5px solid black;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+td {
+  text-align: left;
+  padding: 1rem 10rem 1rem 2rem;
+}
+
+tr:nth-of-type(4) {
+  background: #fea500;
+}
+tr:nth-of-type(5) {
+  background: #4f4fff;
+}
+tr:nth-of-type(6) {
+  background: #16c03b;
+}
+.one:nth-of-type(odd) {
+  background: white;
+}
